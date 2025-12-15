@@ -6,4 +6,7 @@ LiOScen: Liability-Oriented Scenario Generation from Accident Reports for the Va
 ```
 python crash_sequence_extraction.py
 ```
-2. Cluster 
+2. Cluster interactive behavior in the crash sequence
+```
+python interactive_behavior_clustering.py 
+```
