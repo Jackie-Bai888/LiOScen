@@ -2,11 +2,8 @@
 LiOScen: Liability-Oriented Scenario Generation from Accident Reports for the Validation of Autonomous Driving Systems. 
 
 ## Setup/Getting Started
-1. Obtain the crash sequence from the crash summary in the NMVCCS.
+1. You can obtain the prompts for extracting the crash sequence, clustering interaction behaviors, and generating OpenSCENARIO from several files in the 'prompt' folder.
+2. Execute fuzzy testing by running the runner.py file in the fuzzing directory. 
 ```
-python crash_sequence_extraction.py
-```
-2. Cluster interactive behavior in the crash sequence
-```
-python interactive_behavior_clustering.py 
+python runner.py
 ```
